@@ -75,13 +75,27 @@ p{
     color: #fff;
     font-size: 30px;
     margin-right: 50px;
+    
+    
 }
+
+
+.info-project__gallery{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
+    
+}
+
+
 
 .menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 110px;
-    width: 100vw;
+    
     
     
     
@@ -98,10 +112,14 @@ p{
     position: fixed;
     background: rgb(23, 26, 29, 0.6);
     
+    
 }
 
 
-
+.first-part{
+    min-width: 100vw;
+    display: flex;
+}
 
 
 
@@ -166,9 +184,7 @@ h1{
     margin-left: 0px;
 }
 
-.first-part{
-    display: flex;
-}
+
 
 
 
@@ -192,7 +208,9 @@ h1{
     color: red;
 }
 
-
+.Avtopark-info__text{
+    width: 500px;
+}
 
 
 
@@ -300,24 +318,21 @@ h1{
 .The-end{
     border-bottom: 2px solid #fff;
     
+    
 }
 
-
-.contacts-box{
-   
-    height: 30vh;
-}
-
-
-
-.contacts{
-    padding-top: 100px;
-    height: 50vh;
-}
 
 .contacts-box{
     display: flex;
+    height: 30vh;
+    
 }
+
+
+
+
+
+
 
 
 .contact-box__support{
@@ -328,6 +343,9 @@ h1{
 .contacts{
     border-top: 2px solid #fff;
     padding-left: 0px;
+    
+    padding-top: 100px;
+    height: 50vh;
 }
 
 .content{
@@ -369,5 +387,77 @@ h1{
     display: flex;
     align-items: center;
 }
+
+
+
+@media all and (max-width : 1217px){
+    .project-info__text{
+        width: 500px;
+    }
+    
+    .fraki-content__text{
+        width: 500px;  
+    }
+    
+    
+    .card-content__text{
+        width: 500px;
+    }
+    
+    .jobs-content__text{
+        width: 500px;
+    }
+    
+    .events-content__text{
+        width: 500px;
+    }
+
+}
+    
+    
+.support{
+    display: flex;
+    }
+
+@media all and (max-width : 1221px){
+    .info-project__gallery{
+        display: none;
+    }
+
+
+}
+
+@media all and (max-width : 1448px){
+    .contacts{
+        min-width: 138vw;
+        border-top: 2px solid #fff;
+    }
+
+
+}
+
+@media all and (max-width : 1151px){
+    .contacts-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-box__youtube{
+        padding: 0px;
+    }
+
+
+}
+
+@media all and (max-width : 1037px){
+    p{
+        font-size: 25px;   
+    }
+}
+
+
+
+
+
 
 
