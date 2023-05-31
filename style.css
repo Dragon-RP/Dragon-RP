@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    /*     sans-serif для того чтобы текст был без засечек, это обязательно, иначе не работает*/
+    src:
+        local('Open Sans'),
+        url('../fonts/OpenSans-VariableFont_wdth,wght.ttf')
+}
+
+
+
+
+body{
+/*    background: linear-gradient(#03001e, #7303c0, #DBDBDB, #f05053);*/
+    background: #171a1d;
+       background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+
+a{
+    
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+
+p{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  
+    
+}
+
+
+
+
+
+
+.wrap{
+    
+    min-height: 100vh;
+    
+}
+
+.container{
+    
+    padding-left: 0px;
+    
+}
+
+.logo__img{
+    width: 400px;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+
+.info__project{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
+    
+    
+}
+
+
+.info-project__gallery{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
+    
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    
+    
+    
+    
+/*
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+*/
+    
+}
+
+.active{
+    position: fixed;
+    background: rgb(23, 26, 29, 0.6);
+    
+    
+}
+
+
+.first-part{
+    min-width: 100vw;
+    display: flex;
+}
+
+
+
+
+
+.menu__links{
+    margin-top: 50px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+}
+
+
+.project-info__text{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.project-info{
+    
+    
+    padding-top: 60px;
+}
+
+
+
+
+
+.download-btn{
+    font-size: 40px;
+    text-decoration: none;
+    border: 2xp solid #fff;
+    color: #fff;
+    background: #5896fa;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.Gallery{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+
+.logo-discord__img{
+    width: 100px;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+
+
+
+
+.gallery-pictures{
+    width: 400px;
+    margin: 5px 0px;
+    margin-right: 10px;
+}
+
+
+.gallery-general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.Avtopark-info__title{
+    color: red;
+}
+
+.Avtopark-info__text{
+    width: 500px;
+}
+
+
+
+.project-info__contentText{
+    width: 911px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Avtopark-info__letters{
+    width: 700px;
+}
+
+
+.Avtopark__content{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.project-info__btn{
+    margin-top: 50px;
+    
+    
+}
+
+
+
+.project-info__contentLetters{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.fraki-content__text{
+    width: 700px;
+}
+
+
+.fraki-content{
+    display: flex;
+    align-items: center;
+}
+
+
+.fraki{
+    padding-top: 100px;
+}
+
+
+.card{
+     padding-top: 100px;
+}
+
+.card-content{
+    display: flex;
+    align-items: center;
+}
+
+
+.card-content__text{
+    width: 700px;
+}
+
+
+.jobs-content__text{
+    width: 700px;
+}
+
+.jobs-content{
+    display: flex;
+    align-items: center;
+}
+
+.jobs{
+    padding-top: 100px;
+}
+
+
+.events{
+    padding-top: 100px;
+    
+}
+
+.events-content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.events-content__text{
+    width: 700px;
+}
+
+.div{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+
+.The-end{
+    border-bottom: 2px solid #fff;
+    
+    
+}
+
+
+.contacts-box{
+    display: flex;
+    height: 30vh;
+    
+}
+
+
+
+
+
+
+
+
+.contact-box__support{
+    padding-right: 50px;
+}
+
+
+.contacts{
+    border-top: 2px solid #fff;
+    padding-left: 0px;
+    
+    padding-top: 100px;
+    height: 50vh;
+}
+
+.content{
+    padding-left: 50px;
+}
+
+
+
+.contacts-content{
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__title{
+    padding-bottom: 20px;
+}
+
+.contact-box__youtube{
+    padding-left: 50px;
+    
+}
+
+
+.logo-off__discord{
+    width: 100px;
+}
+
+.menu__logo{
+    width: 100px;
+}
+
+.officialDc{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media all and (max-width : 1217px){
+    .project-info__text{
+        width: 500px;
+    }
+    
+    .fraki-content__text{
+        width: 500px;  
+    }
+    
+    
+    .card-content__text{
+        width: 500px;
+    }
+    
+    .jobs-content__text{
+        width: 500px;
+    }
+    
+    .events-content__text{
+        width: 500px;
+    }
+
+}
+    
+    
+.support{
+    display: flex;
+    }
+
+@media all and (max-width : 1221px){
+    .info-project__gallery{
+        display: none;
+    }
+    
+    .project-info__btn{
+      width: 122vw;
+    }
+
+
+}
+
+@media all and (max-width : 1448px){
+    .contacts{
+        min-width: 138vw;
+        border-top: 2px solid #fff;
+    }
+
+
+}
+
+@media all and (max-width : 1151px){
+    .contacts-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-box__youtube{
+        padding: 0px;
+    }
+
+
+}
+
+@media all and (max-width : 1037px){
+    p{
+        font-size: 25px;   
+    }
+}
+
+.tutorial{
+    font-size: 20px;
+    text-decoration: none;
+    border: 2xp solid #fff;
+    color: #fff;
+    background: red;
+    padding: 15px 15px;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
+
+
+
+
+
