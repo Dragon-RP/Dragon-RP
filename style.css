@@ -237,6 +237,8 @@ h1{
 
 .project-info__btn{
     margin-top: 50px;
+    
+    
 }
 
 
@@ -423,6 +425,10 @@ h1{
     .info-project__gallery{
         display: none;
     }
+    
+    .project-info__btn{
+      width: 122vw;
+    }
 
 
 }
@@ -455,7 +461,17 @@ h1{
     }
 }
 
-
+.tutorial{
+    font-size: 40px;
+    text-decoration: none;
+    border: 2xp solid #fff;
+    color: #fff;
+    background: red;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
 
 
 
